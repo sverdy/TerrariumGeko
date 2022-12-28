@@ -205,7 +205,7 @@ void Ecran::print(char *texte, int x, int y, int couleur)
 // Ecrit la méthode sleep de la class Ecran
 void Ecran::sleep()
 {
-    tft.fillScreen(NOIR);
+    tft.fillScreen(NOIR);    
 }
 
 // Ecrit la méthode action de la class Ecran
